@@ -28,7 +28,8 @@ const handleWheel = (event) =>{
 useEffect(() =>{
 
    
-  fetch('https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1', options)
+  fetch(`https://api.themoviedb.org/3/movie/${category?
+    category:"now_playing"}?language=en-US&page=1`, options)
     .then(response => response.json())
     .then(response => setApiData(response.results))
     .catch(err => console.error(err));
