@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import { onAuthStateChanged } from 'firebase/auth';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer,  } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from './firebase';
 import Home from './pages/Home/Home';
