@@ -64,41 +64,7 @@ Copy code
 npm start
 Open http://localhost:3000 to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-To build the project for production:
 
-bash
-Copy code
-npm run build
-Project Structure
-plaintext
-Copy code
-netflix-clone/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── Auth/
-│   │   ├── Movie/
-│   │   ├── Navbar/
-│   │   └── ...
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Login.jsx
-│   │   ├── Register.jsx
-│   │   └── ...
-│   ├── redux/
-│   │   ├── actions/
-│   │   ├── reducers/
-│   │   └── store.js
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── .env
-├── .gitignore
-├── package.json
-├── README.md
-└── ...
 Contributing
 Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
 
